@@ -1,0 +1,35 @@
+{
+  "name": "zipcodedb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seanmcgary/zipcodes.git"
+  },
+  "keywords": [
+    "zipcodes",
+    "database",
+    "server",
+    "api",
+    "rest"
+  ],
+  "author": "Sean McGary <sean@seanmcgary.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanmcgary/zipcodes/issues"
+  },
+  "dependencies": {
+    "logwrangler": "~0.1.5",
+    "q": "~1.0.1",
+    "redis": "~0.12.1",
+    "lodash": "~2.4.1",
+    "body-parser": "~1.8.3",
+    "express": "~4.9.4",
+    "express-wrangler": "~0.1.0",
+    "async": "~0.9.0"
+  }
+}
